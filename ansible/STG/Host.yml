@@ -1,0 +1,9 @@
+[app]
+server1 ansible_host=10.0.0.4
+server2 ansible_host=10.0.0.5
+
+
+[all:vars]
+ansible_user=app
+ansible_password=Alex310224993
+ansible_python_interpreter=/usr/bin/python3
